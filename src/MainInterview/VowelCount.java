@@ -1,6 +1,6 @@
 package MainInterview;
 
-import com.google.common.base.CharMatcher;
+
 
 import java.util.function.IntPredicate;
 
@@ -29,8 +29,8 @@ public class VowelCount {
 
 
         System.out.println("-----Guava Jar -------------");
-        int voCount= CharMatcher.anyOf("aeiouAEIOU").countIn(s);
-        System.out.println(voCount);
+        /*int voCount= CharMatcher.anyOf("aeiouAEIOU").countIn(s);
+        System.out.println(voCount);*/
     }
 
     public static boolean isVowel(char t) {
