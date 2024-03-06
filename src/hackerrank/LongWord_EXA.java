@@ -10,6 +10,7 @@ public class LongWord_EXA {
 
         int count = 0, max = 0, lastIndex = 0;
         for (int i = 0; i < input.length(); i++) {
+            //System.out.print(input.charAt(i) );
             if (input.charAt(i) == ' ') {
                 if (count % 2 == 0) {
                     if (count > max) {
@@ -34,7 +35,7 @@ public class LongWord_EXA {
     }
 
     public static void main(String[] args) {
-        String s="Write code for a great time";
+        String s="Write code for a simple great";
         System.out.println(LongestEvenLengthWord(s));
     }
 }
